@@ -63,6 +63,6 @@ the existing `_boon_overlay` / mystery-event pattern — no new .tscn required. 
 ## Verified
 - Resolver decision logic: 33/33 assertions pass (Python simulation of the same
   data + the GDScript test's assertions). See `tests/test_soul_resolver.gd`.
-- Brace/indent lint clean on all touched files. NOTE: a real
-  `godot --headless --check-only` syntax pass is still recommended — this env had
-  no Godot binary.
+- Brace/indent lint clean on all touched files. NOTE: a real Godot headless
+  syntax pass (`tools\check_godot_stability.cmd`) is still recommended — this
+  env had no Godot binary.
