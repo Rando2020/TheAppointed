@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+thirdparty/
+
+# Build output
+dist/
+build/
+coverage/
+
+# Local env
+.env
+.env.*
+!.env.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Generated exports and temp files
+exports/builds/
+*.tmp
+*.bak
+
+# Godot generated files
+godot/.godot/
+godot/.codex_appdata/
+godot/godot_*.log
+godot/android/
+godot/export_presets.cfg
+godot/*.import
